@@ -1,0 +1,9 @@
+# Program configuration files
+credentials.ini
+
+# Figure out the name later
+.idea/
+venv/
+
+# Handoff Notes
+handoff.txt
