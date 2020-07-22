@@ -44,5 +44,5 @@ target_platform.fetch_token(res_token_url, client_secret=res_client_secret,
 print("Fetched token")
 
 # Fetch a protected resource, i.e. user profile
-r = target_platform.get('https://api.linkedin.com/v2/me')
+r = target_platform.get(res_api_call)
 print(r.content)
